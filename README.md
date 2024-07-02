@@ -7,7 +7,7 @@
  2. It contains activity,Fragment,ViewModel and imports with the android packages.
 
 ### Domain
- 1. This layer dealing with Bussiness logic part.
+ 1. This layer dealing with Business logic part.
  2. It contains use cases,repository interfaces.
 
 ### Data
@@ -15,13 +15,13 @@
  2. It contain repository implementation from the case.
 
 ## Main Idea
-**Inner layer shouldn't depend on outer layer**.That means the repository should have no dependecy on use case, and similaryly the use cases should not depend on the presentation layer(viewmodel).
+**Inner layer shouldn't depend on outer layer**.That means the repository should have no dependency on use case, and similarly the use cases should not depend on the presentation layer(viewmodel).
 
 **Presentation/UI:** This layer purely deals with UI and views system of the Android and it's state handling.
 
 **Domain Layer:** 
   1. The Domain must remain independent of all other layers.
-  2. On the other hand, a use case have another use case as it's dependency, allowing the delegation of resposibilities
+  2. On the other hand, a use case have another use case as it's dependency, allowing the delegation of responsibilities.
   3. to the dependent use case, but this can lead to circular dependency in large projects which we need to keep watch on.
   4. Do not hold any state.
   5. It calls a method of the repository to fetch data without knowing how and from where it comes.
