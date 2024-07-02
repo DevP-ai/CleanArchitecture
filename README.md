@@ -33,7 +33,8 @@
   2. It should only depend on `API`, `datasource`.
      
   
-
+### Visual Representation
+<img width="1792" alt="app_architecture" src="https://github.com/DevP-ai/CleanArchitecture/assets/107491760/56643b8d-de42-4eaf-841c-e5736f182e9d">
 
    
     
