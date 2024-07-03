@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1073790068402",
+    "project_id": "cleanarchitecture-6434a",
+    "storage_bucket": "cleanarchitecture-6434a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073790068402:android:161de8693c3a8b9ffd8bab",
+        "android_client_info": {
+          "package_name": "com.developer.android.dev.technologia.androidapp.cleanarchitecturexml"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4BiST1XudFxcYlt01w2a8pPxx5H61g0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
