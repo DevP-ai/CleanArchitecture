@@ -22,10 +22,10 @@
 **Domain Layer:** 
   1. The Domain must remain independent of all other layers.
   2. On the other hand, a use case have another use case as it's dependency, allowing the delegation of responsibilities.
-  3. to the dependent use case, but this can lead to circular dependency in large projects which we need to keep watch on.
-  4. Do not hold any state.
-  5. It calls a method of the repository to fetch data without knowing how and from where it comes.
-  6. No threading details on the Domain layer.
+     to the dependent use case, but this can lead to circular dependency in large projects which we need to keep watch on.
+  3. Do not hold any state.
+  4. It calls a method of the repository to fetch data without knowing how and from where it comes.
+  5. No threading details on the Domain layer.
 
 **Data Layer:**
   1. To ensure flexibility in replacing the data layer library, such as Retrofit, with another library without affecting the domain and UI layers,
